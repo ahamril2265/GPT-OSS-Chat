@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",        // Enable static export
-  basePath: "/gpt-oss-chat", // GitHub repo name (without .git)
+  output: "export",
+  basePath: "/GPT_OSS_Chat", // <-- your repo name
   images: {
-    unoptimized: true,     // Required for static export
+    unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
